@@ -23,30 +23,31 @@ The goal of this project is to:
 ---
 
 ## Dataset
-The dataset contains **20,765 entries and 22 features**, including:
-- **id**: Unique identifier for each listing  
-- **name**: Title of the Airbnb listing  
-- **host_name**: Name of the host  
-- **neighborhood_group**: Group (borough) where the listing is located  
-- **latitude/longitude**: Geolocation of listings  
-- **price**: Nightly rental price  
-- **room_type**: Type of accommodation (e.g., entire home, private room)  
-- **reviews_per_month**: Average monthly reviews for the listing  
-- **availability_365**: Number of available days in the year  
+The dataset contains **5806 entries and 12 columns**, including:  
+- **id**: Unique identifier for each listing   
+- **title**: Title of the movie/shows  
+- **release_year**:content release year. Only Year mentioned  
+- **age_certification**: Age rated certification given to the content  
+- **genres**: Category of films mentioned as a list in each column   
+- **production_countries**: Name of the countries involved in the production of the films mentioned as a list   
+- **seasons**: Number of seasons for the show   
+- **imdb_score**: Ratings given for the content by genreal public in imdb   
+- **imdb_votes**: Number of people voted for the particular content.  
 
 ---
 
 ## Steps and Workflow
 
 ### 1. Data Cleaning
-- **Handle missing data**: `price`, `neighborhood`, and `beds` columns had null values.
-- **Fix data types**: Converted `last_review` to a **datetime** object.
-- **Remove outliers**: Listings with prices > $1,000 were capped to avoid skewed visualizations.
+- **Handle missing data**: `title` had missing value so removed those rows
+- - **Two Dataframe created**: Two dataframes created sepearate for both movies and shows  
+- **Fix data types**: Converted `genres` and `production_countries` from list to a single value. Exploded data set twice
+- 
 
-### 2. EDA (Exploratory Data Analysis)
-1. **Room type distribution**: 
-   - Visualized the count of each room type using **bar plots**.
-   - Identified **Entire home/apt** as the most common room type.
+### 2. EDA (Exploratory Data Analysis)  
+1. **Insight based on the content released**:  
+   - Content released in last 5 years.  
+   - Contents which has no rating till now (Low popular)
 
 2. **Neighborhood group insights**:
    - Analyzed **price variations by boroughs**.
