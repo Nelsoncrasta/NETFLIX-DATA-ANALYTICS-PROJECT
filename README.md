@@ -40,37 +40,40 @@ The dataset contains **5806 entries and 12 columns**, including:
 
 ### 1. Data Cleaning
 - **Handle missing data**: `title` had missing value so removed those rows
-- - **Two Dataframe created**: Two dataframes created sepearate for both movies and shows  
-- **Fix data types**: Converted `genres` and `production_countries` from list to a single value. Exploded data set twice
+- **Two Dataframe created**: Two dataframes created sepearate for both movies and shows  
+- **Fix data types**: Converted `genres` and `production_countries` from list to a string. Exploded data set twice
 - 
 
 ### 2. EDA (Exploratory Data Analysis)  
 1. **Insight based on the content released**:  
    - Content released in last 5 years.  
-   - Contents which has no rating till now (Low popular)
+   - Contents which has no rating till now (Less popular)  
+   - contents produced based on age certifications
+   - Top 5 shows & movies by rating,runtime and popularity
 
-2. **Neighborhood group insights**:
-   - Analyzed **price variations by boroughs**.
-   - Manhattan had the **highest average prices**.
+2. **Content related insights**:
+   - Last 15 years mean ratings of shows and movies using a **Bar graph**   
+   - Popularity of movies and shows over the years using **Bar Graph**    
+   - Popularity of shows based on their number of seasons and ratings. Using subplots i used (line graph and Bar graph)
+   - Age certified shows and movies using line graph
+   - Number of films in each Genre, Genre wise ratings,Genre wise popularity  
+   - Genre wise produced films using Heatmap
 
-3. **Availability trends**:
-   - Used **heatmaps** to show correlations among `price`, `availability_365`, `number_of_reviews`, and `beds`.
+3. **Country wise trends**:
+   - Country wise shows and movies.  
+   - Popular Genres in each country  
+   - Percentage of content produced based on Age - certification by each country  
 
-4. **Price distribution**:
-   - Used **histograms** to show the distribution of prices.
-   - Majority of the listings were priced between **$50 - $300**.
+4. **Insight about the casts and Crew**:
+   - Country wise actors and directors who appeared most times in a show and movies  
+   - Actors and directors whose films are more popular  
 
-5. **Host listings**:
-   - Analyzed hosts with multiple listings using **boxplots** to identify key contributors.
-
-6. **Review behavior**:
-   - Used **pair plots** to show relationships between number of reviews, price, and availability.
 
 ### 3. Data Visualization
-- **Pairplot**: To see correlations among `price`, `availability`, and `number of reviews`.
-- **Heatmap**: Showing correlations among numerical features.
+- **Pairplot**: To see correlations among `imdb_votes`, `genres`, and `number of films`.
+- **Heatmap**: Showing the correlation between number of films produced in a particular genres.  
 - **Histograms and Boxplots**: To detect outliers in `price`.
-- **Bar Charts**: Displaying room types and neighborhood group distributions.
+- **Bar Charts**: Displaying mean_rating, mean_votes,number of films produced etc.
 
 ---
 
