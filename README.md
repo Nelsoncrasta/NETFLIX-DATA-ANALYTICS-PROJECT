@@ -70,28 +70,32 @@ The dataset contains **5806 entries and 12 columns**, including:
 
 
 ### 3. Data Visualization
-- **Pairplot**: To see correlations among `imdb_votes`, `genres`, and `number of films`.
+- **Pairplot**: To see correlations among `imdb_votes`, `genres`, and `number of films`.  
 - **Heatmap**: Showing the correlation between number of films produced in a particular genres.  
-- **Histograms and Boxplots**: To detect outliers in `price`.
-- **Bar Charts**: Displaying mean_rating, mean_votes,number of films produced etc.
+- **Bar Charts**: Displaying mean_rating, mean_votes,number of films produced etc.  
 
 ---
 
 ## Key Findings and Insights
-1. **Price Trends**:  
-   - **Manhattan** has the most expensive listings, followed by Brooklyn.  
-   - **Entire homes/apartments** cost significantly more than private or shared rooms.  
+1. **ABOUT CONTENTS**:
+   - The shows were started to get produced more from 2014.
+   - There are more number of films in netflix than shows, but in the recent years the number of films produced has seen a decline but the number of shows produced remains steady.  
+   - United States produces the highest number of Netflix titles, followed by India, United Kingdom, and Japan.
 
-2. **Room Type Distribution**:  
-   - **Entire homes/apartments** are the most common, but **private rooms** offer budget-friendly options.
+2. **Genres**:  
+   - Popular genres include `drama`, `comedy`, `documentary`, and `action`
+   - `history` & `war` is most rated genre in shows and `documentry` is the most rated genre in movies
+   - `reality` is the least rated genre in the shows `horror` is the least rated genre in movies
+   - `western` and `war` is among the most poular genre
+   - 
 
-3. **Outliers in Price**:  
+4. **Outliers in Price**:  
    - Few listings priced at **$10,000+** were detected, indicating the need to filter such extreme values.
 
-4. **Availability Patterns**:  
+5. **Availability Patterns**:  
    - Listings with **high availability** tend to have lower prices and more reviews, likely due to better guest experience.
 
-5. **Host Behavior**:  
+6. **Host Behavior**:  
    - Some hosts manage **multiple listings**, indicating a trend toward professional hosting.
 
 ---
