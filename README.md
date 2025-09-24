@@ -78,64 +78,73 @@ The dataset contains **5806 entries and 12 columns**, including:
 
 ## Key Findings and Insights
 1. **ABOUT CONTENTS**:
-   - The shows were started to get produced more from 2014.
-   - There are more number of films in netflix than shows, but in the recent years the number of films produced has seen a decline but the number of shows produced remains steady.  
-   - United States produces the highest number of Netflix titles, followed by India, United Kingdom, and Japan.
+   - Content production began rising sharply around 2014.  
+   - Movies still outnumber TV shows, but film production has trended downward in recent years, while series output has remained relatively stable.  
+   - The United States leads in total titles, followed by India, the United Kingdom, and Japan.  
+   - Although the volume of new content has grown markedly over the last five years, the median IMDb votes for both movies and shows have declined, indicating reduced audience engagement per title.  
 
 2. **Genres**:  
-   - Popular genres include `drama`, `comedy`, `documentary`, and `action`
-   - `history` & `war` is most rated genre in shows and `documentry` is the most rated genre in movies
-   - `reality` is the least rated genre in the shows `horror` is the least rated genre in movies
-   - `western` and `war` is among the most poular genre
-   - 
+   - Popular genres include `drama`, `comedy`, `documentary`, and `action`  
+   - The most prevalent genres overall are `drama`, `comedy`, `documentary`, and `action`.  
+   - Among TV shows, `history` and `War` receive the highest average ratings, while `documentary` leads for movies.  
+   - `reality` shows attract the lowest ratings, and `horror` ranks lowest for movies.  
+   - In terms of popularity, `western` and `war` films stand out for movies, while `horror`, `thriller`, and `sci-Fi` dominate for shows.  
+   - Conversely, `reality` and `documentary` films, along with `reality` and `music` shows, are the least popular.    
+   - Over the past five years, the number of titles produced per genre has remained relatively stable, showing no strong upward or downward trend
+   - Year after year `drama`, `comedy`, and `thriller` consistently dominate the list of most popular movies.
 
-4. **Outliers in Price**:  
-   - Few listings priced at **$10,000+** were detected, indicating the need to filter such extreme values.
+   
+3. **Age-Certifications**:  
+   - Among movies, approximately 41 % are rated R, while 47 % of TV shows carry a TV-MA rating—both classifications for adult audiences.  
+   - The trend line remains almost flat for kid-friendly ratings, but rises steadily as the ratings move toward more mature audiences, showing that Netflix invests more heavily in adult-oriented content in both shows and movies.      
+   - Many of the most popular genres lean heavily toward R-rated material, though Animation, Family, and Sci-Fi maintain a comparatively larger share of child-appropriate titles.  
+   - Japan and India produce the lowest proportion of R-rated movies, whereas Canada shows a balanced output across the full range of age certifications.  
+   - Notably, India records the highest percentage of TV-MA shows among all countries analyzed.    
 
-5. **Availability Patterns**:  
-   - Listings with **high availability** tend to have lower prices and more reviews, likely due to better guest experience.
+5. **Production Country**:  
+   - Great Britain consistently produces content with higher average popularity scores than any other country.  
+   - Japan achieves the highest mean IMDb rating for movies, while South Korea leads in the average rating for TV shows  
+   - The United States dominates overall output, accounting for nearly half of all Netflix titles, and hosts the most popular shows and movies by absolute count.  
 
-6. **Host Behavior**:  
-   - Some hosts manage **multiple listings**, indicating a trend toward professional hosting.
-
----
-
-## How to Run This Project
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/najirh/Python-Project-P2-New-York-AirBnb-Listing-2024.git
-   ```
-2. Install the required libraries:
-   ```bash
-   pip install pandas numpy matplotlib seaborn
-   ```
-3. Run the **Jupyter notebook** or **Python script**:
-   ```bash
-   jupyter notebook day23_airbnb_eda.ipynb
-   ```
+6. **Cast and Crew**:  
+   - Raul Campos directs the largest number of Netflix movies (21). Jay Karas ranks as the second-highest-rated director and enjoys strong overall popularity  
+   - Among actors, Shah Rukh Khan appears in the greatest number of Netflix films, while Nawazuddin Siddiqui features in some of the highest-rated productions.   
+   - In markets such as Korea, Japan, and India, casts and crews are frequently repeated across multiple titles, reflecting a more concentrated talent pool compared with the U.S. and Europe.    
 
 ---
 
-## Recommendations
-- **For Guests**: 
+
+## Recommendations  
+
+
+- **Genre Balancing**: 
+While Drama and Comedy dominate, explore niche genres (e.g., historical documentaries, music-based shows) that show strong ratings but low output.  
+ 
+- **Audience-Targeted Expansion**:  
+ Focus on under-served segments such as child-friendly and family programming, where production remains flat and competition is lower.  
+
+- **Global Talent Development:**
+  Investigate why median IMDb votes are declining despite more releases—experiment with marketing strategies, improved recommendation algorithms, and staggered global launches.  
+  
+- **Engagement Revitalization**: 
    - Look for listings with high availability and good reviews for a better experience.
-   - **Private rooms** in Brooklyn offer affordable stays compared to Manhattan.
-
-- **For Hosts**:  
-   - Improve **availability** and **review response rates** to attract more bookings.
-   - Manage pricing effectively to compete within the borough's market.
+     
 
 ---
 
 ## Future Work
-- Use **machine learning** to predict prices based on room type and location.
-- Perform **sentiment analysis** on reviews to better understand guest experiences.
+- **Predictive Modeling:**
+Build machine-learning models to forecast viewership or ratings based on factors like genre, runtime, and release year.
 - Create an **interactive dashboard** using Plotly or Tableau for live monitoring.
+**Sentiment & Text Analysis:**
+Combine IMDb reviews or social-media sentiment with ratings to uncover drivers of popularity beyond genre and certification.
 
 ---
 
 ## Conclusion
-This project offers valuable insights into the New York Airbnb market, helping both guests and hosts make informed decisions. By using **EDA techniques**, we identified key trends and developed actionable recommendations. Future improvements can involve advanced analytics and predictive modeling to further enhance the findings.
+Netflix’s catalogue has expanded dramatically since 2014, yet audience engagement per title is slipping and adult-oriented content dominates.
+Opportunities lie in broadening genre diversity, investing in family programming, and nurturing talent in emerging markets.
+By pairing data-driven audience insights with global production strategies, Netflix can sustain growth while reaching new demographics and reversing the decline in per-title engagement.
 
 ---
 
@@ -144,10 +153,3 @@ This project is open-source and licensed under the [MIT License](https://opensou
 
 ---
 
-## Contact
-For any queries, feel free to reach out at:
-- **YouTube**: [@Zero_Analyst](https://www.youtube.com/@Zero_Analyst)  
-- **GitHub**: [Your GitHub](https://github.com/your-repo)  
-- **LinkedIn**: [Your LinkedIn](https://linkedin.com/in/your-profile)  
-
----
