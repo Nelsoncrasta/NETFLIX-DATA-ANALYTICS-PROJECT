@@ -96,7 +96,8 @@ The dataset contains **5806 entries and 12 columns**, including:
    - The trend line remains almost flat for kid-friendly ratings, but rises steadily as the ratings move toward more mature audiences, showing that Netflix invests more heavily in adult-oriented content in both shows and movies.      
    - Many of the most popular genres lean heavily toward R-rated material, though Animation, Family, and Sci-Fi maintain a comparatively larger share of child-appropriate titles.  
    - Japan and India produce the lowest proportion of R-rated movies, whereas Canada shows a balanced output across the full range of age certifications.  
-   - Notably, India records the highest percentage of TV-MA shows among all countries analyzed.    
+   - Notably, India records the highest percentage of TV-MA shows among all countries analyzed.
+   - We can see a correlation between popularity and age_certifications TV-MA and R more likely to be popular compared to children contents.
 
 5. **Production Country**:  
    - Great Britain consistently produces content with higher average popularity scores than any other country.  
@@ -121,7 +122,10 @@ While Drama and Comedy dominate, explore niche genres (e.g., historical document
  Focus on under-served segments such as child-friendly and family programming, where production remains flat and competition is lower.  
 
 - **Global Talent Development:**
-  Investigate why median IMDb votes are declining despite more releases—experiment with marketing strategies, improved recommendation algorithms, and staggered global launches.  
+  Investigate why median IMDb votes are declining despite more releases—experiment with marketing strategies, improved recommendation algorithms, and staggered global launches.
+
+- **Viewer Engagement**:
+  Analysis revealed that TV series with 5–9 seasons are most likely to achieve higher popularity scores, indicating sustained audience engagement without the drop-off often seen in longer series.
   
   
 ---
