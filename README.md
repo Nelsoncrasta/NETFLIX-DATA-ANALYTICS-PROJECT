@@ -123,10 +123,7 @@ While Drama and Comedy dominate, explore niche genres (e.g., historical document
 - **Global Talent Development:**
   Investigate why median IMDb votes are declining despite more releases—experiment with marketing strategies, improved recommendation algorithms, and staggered global launches.  
   
-- **Engagement Revitalization**:
-  Look for listings with high availability and good reviews for a better experience.
-     
-
+  
 ---
 
 ## Future Work
