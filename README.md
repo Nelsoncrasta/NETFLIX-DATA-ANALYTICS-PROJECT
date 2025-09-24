@@ -32,23 +32,22 @@ The dataset contains **5806 entries and 12 columns**, including:
 - **production_countries**: Name of the countries involved in the production of the films mentioned as a list   
 - **seasons**: Number of seasons for the show   
 - **imdb_score**: Ratings given for the content by genreal public in imdb   
-- **imdb_votes**: Number of people voted for the particular content.  
+- **imdb_votes**: Number of people voted for the particular content.
 
----
+  ---
 
 ## Steps and Workflow
 
 ### 1. Data Cleaning
 - **Handle missing data**: `title` had missing value so removed those rows
 - **Two Dataframe created**: Two dataframes created sepearate for both movies and shows  
-- **Fix data types**: Converted `genres` and `production_countries` from list to a string. Exploded data set twice
-- 
+- **Fix data types**: Converted `genres` and `production_countries` from list to a string. Exploded data set twice  
 
 ### 2. EDA (Exploratory Data Analysis)  
 1. **Insight based on the content released**:  
    - Content released in last 5 years.  
    - Contents which has no rating till now (Less popular)  
-   - contents produced based on age certifications
+   - Contents produced based on age certifications
    - Top 5 shows & movies by rating,runtime and popularity
 
 2. **Content related insights**:
@@ -76,7 +75,7 @@ The dataset contains **5806 entries and 12 columns**, including:
 
 ---
 
-## Key Findings and Insights
+## 4. Key Findings and Insights
 1. **ABOUT CONTENTS**:
    - Content production began rising sharply around 2014.  
    - Movies still outnumber TV shows, but film production has trended downward in recent years, while series output has remained relatively stable.  
@@ -114,7 +113,7 @@ The dataset contains **5806 entries and 12 columns**, including:
 ---
 
 
-## Recommendations  
+## 5. Recommendations  
 
 
 - **Genre Balancing**: 
@@ -126,8 +125,8 @@ While Drama and Comedy dominate, explore niche genres (e.g., historical document
 - **Global Talent Development:**
   Investigate why median IMDb votes are declining despite more releases—experiment with marketing strategies, improved recommendation algorithms, and staggered global launches.  
   
-- **Engagement Revitalization**: 
-   - Look for listings with high availability and good reviews for a better experience.
+- **Engagement Revitalization**:
+  Look for listings with high availability and good reviews for a better experience.
      
 
 ---
